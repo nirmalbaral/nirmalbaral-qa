@@ -1,4 +1,4 @@
-baseURL = "https://nirmalbaral.qa/"
+baseURL = "https://www.nirmalbaral.qa/"
 languageCode = "en-us"
 title = "My Random thoughts"
 theme = "hugo-future-imperfect-slim"
