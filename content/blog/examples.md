@@ -1,5 +1,5 @@
 +++
-author = "Hugo Future Imperfect Slim"
+author = "Nirmal Baral"
 categories = ["Markdown"]
 date = "2019-01-01"
 description = "Markdown and Shortcode Examples"

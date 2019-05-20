@@ -26,12 +26,11 @@ disableLanguages        = [""]
   readingTime           = true
   # Sets which Social Share links appear in posts.
   # Options are twitter, facebook, reddit, linkedin, stumbleupon, pinterest, email
-  socialShare           = ["twitter", "facebook", "reddit", "linkedin",
-                          "stumbleupon", "pinterest", "email"]
+  #socialShare           = ["twitter", "linkedin"]
 
   [params.meta]
     # Sets the meta tag description
-    description         = "A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
+    description         = ""
     # Sets the meta tag author
     author              = "Nirmal Baral"
     # If you would like to add more comprehensive favicon support passed root
@@ -50,15 +49,15 @@ disableLanguages        = [""]
     # Sets navbarTitle to match the section of the website
     dynamicTitles       = true
     searchMenu          = true
-    shareMenu           = true
-    languageMenu        = true
+    shareMenu           = false
+    languageMenu        = false
 
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
     header                = "Nirmal Baral <br/> Software Test Engineer"
-    paragraph             = "Another fine, responsive site template by <a href='http://html5up.net'>Nirmal</a>."
-    rssIntro              = true
+    paragraph             = "qa, testing, agile, automation, api"
+    rssIntro              = false
     socialIntro           = true
 
     # This appears at the top of the sidebar above params.intro.header.
@@ -67,11 +66,11 @@ disableLanguages        = [""]
       src                 = "/img/main/logo.jpg"
       # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
       shape               = "circle"
-      width               = ""
+      width               = "100px"
       alt                 = "Nirmal Baral"
 
   [params.sidebar]
-    about               = "test"
+    about               = "About me"
     # Sets the number of recent posts to show in the sidebar. The default value is 5.
     postAmount          = 5
     # set to show or to hide categories in the sidebar
@@ -81,7 +80,7 @@ disableLanguages        = [""]
 
   [params.footer]
     # Sets RSS icons to appear on the sidebar with the social media buttons
-    rssFooter           = true
+    rssFooter           = false
     # Sets Social Media icons to appear on the sidebar
     socialFooter        = true
 
@@ -148,47 +147,11 @@ disableLanguages        = [""]
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github                = "pacollins/hugo-future-imperfect-slim"
-  gitlab                = ""
-  stackoverflow         = "" # User Number
-  bitbucket             = ""
-  jsfiddle              = ""
-  codepen               = ""
-  # Visual Art Communities
-  deviantart            = ""
-  flickr                = "example"
-  behance               = ""
-  dribbble              = ""
-  # Publishing Communities
-  wordpress             = ""
-  medium                = ""
+  github                = "nirmalbaral"
+  stackoverflow         = "1660692" # User Number
   # Professional/Business Oriented Communities
-  linkedin              = "example"
-  linkedin_company      = "examplebusiness"
-  foursquare            = ""
-  xing                  = ""
-  slideshare            = ""
+  linkedin              = "nirmalbaral"
   # Social Networks
-  facebook              = "example"
-  googleplus            = ""
-  reddit                = "example"
-  quora                 = ""
-  youtube               = ""
-  vimeo                 = ""
-  whatsapp              = "" # WhatsApp Number
-    # WeChat and QQ need testing.
-    wechat              = ""
-    qq                  = "" # User ID Number
-  instagram             = "example"
-  tumblr                = ""
-  twitter               = "example"
-  skype                 = ""
-  snapchat              = ""
-  pinterest             = "example"
-  telegram              = "example"
-  vine                  = ""
-  googlescholar         = ""
-  orcid                 = ""
-  researchgate          = "example"
+  twitter               = "ncbaral"
   # Email
-  email                 = "example"
+  #email                 = "example"
