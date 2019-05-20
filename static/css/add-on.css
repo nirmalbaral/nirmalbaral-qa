@@ -12,3 +12,7 @@
 .button:hover {
   border: none;
 }
+
+.post>header .title a {
+  font-size: 1.5rem
+}

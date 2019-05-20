@@ -1,13 +1,13 @@
 +++
 author = "Nirmal Baral"
 categories = ["Markdown"]
-date = "2019-01-01"
-description = "Markdown and Shortcode Examples"
+date = "2019-05-20"
+description = "continuous integration set up with WebdriverIO and CircleCI"
 featured = ""
 featuredalt = ""
 featuredpath = ""
 linktitle = ""
-title = "Markdown and Shortcodes"
+title = "Continous Webdriver Testing with WebdriverIO and CircleCI"
 type = "post"
 
 +++
